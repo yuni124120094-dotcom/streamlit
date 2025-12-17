@@ -61,4 +61,5 @@ st.pyplot(fig)
 # -------------------------------
 if save_plot:
     fig.savefig("seismic_plot.png", dpi=300)
+
     st.success("Plot berhasil disimpan sebagai seismic_plot.png")
